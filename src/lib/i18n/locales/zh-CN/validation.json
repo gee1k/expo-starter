@@ -1,0 +1,11 @@
+{
+  "required": "{{field}}不能为空",
+  "email": "无效的电子邮件地址",
+  "password": {
+    "minLength": "密码至少 {{min}} 个字符",
+    "maxLength": "密码最多 {{max}} 个字符"
+  },
+  "confirmPassword": {
+    "match": "密码不匹配"
+  }
+}

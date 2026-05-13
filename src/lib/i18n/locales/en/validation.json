@@ -1,0 +1,11 @@
+{
+  "required": "{{field}} is required",
+  "email": "Invalid email address",
+  "password": {
+    "minLength": "Password must be at least {{min}} characters long",
+    "maxLength": "Password must be at most {{max}} characters long"
+  },
+  "confirmPassword": {
+    "match": "Passwords do not match"
+  }
+}

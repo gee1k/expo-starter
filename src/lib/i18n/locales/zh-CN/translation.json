@@ -1,0 +1,112 @@
+{
+  "tab": {
+    "home": "首页",
+    "my": "我的"
+  },
+  "common": {
+    "cancel": "取消",
+    "confirm": "确认",
+    "ok": "确定",
+    "yes": "是",
+    "no": "否",
+    "close": "关闭",
+    "or": "或",
+    "continue": "继续",
+    "submit": "提交",
+    "retry": "重试",
+    "skip": "跳过",
+    "notSet": "未设置",
+    "loading": "加载中...",
+    "warning": "警告",
+    "error": "错误",
+    "success": "成功"
+  },
+  "auth": {
+    "common": {
+      "name": "姓名",
+      "namePlaceholder": "请输入姓名",
+      "email": "电子邮件",
+      "emailPlaceholder": "请输入电子邮件",
+      "password": "密码",
+      "passwordPlaceholder": "请输入密码",
+      "newPassword": "新密码",
+      "newPasswordPlaceholder": "请输入新密码"
+    },
+    "signOut": {
+      "title": "退出登录",
+      "message": "您确定要退出登录吗？"
+    },
+    "signIn": {
+      "title": "登录",
+      "submit": "登录",
+      "signInWithApple": "使用 Apple 登录",
+      "signInWithGoogle": "使用 Google 登录",
+      "noAccount": "还没有账号？",
+      "signUp": "注册",
+      "forgotPassword": "忘记密码？",
+      "changeClub": "更改俱乐部",
+      "loading": "登录中...",
+      "success": "登录成功",
+      "successDescription": "欢迎回来！{{name}}",
+      "error": "登录失败",
+      "userCanceled": "用户取消了授权",
+      "verifyEmail": "验证您的电子邮件",
+      "verifyEmailDescription": "请检查您的电子邮件以验证您的帐户。",
+      "resendEmail": "重新发送电子邮件",
+      "resendEmailSuccess": "验证电子邮件成功发送。"
+    },
+    "signUp": {
+      "title": "注册",
+      "submit": "注册",
+      "loading": "注册中...",
+      "alreadyHaveAccount": "已经有账户？",
+      "backToSignIn": "返回登录",
+      "changeClub": "更改俱乐部",
+      "success": "注册成功",
+      "successDescription": "请检查您的电子邮件以验证您的帐户。",
+      "error": "注册失败"
+    },
+    "forgetPassword": {
+      "title": "忘记密码",
+      "submit": "发送重置链接",
+      "backToSignIn": "返回登录",
+      "success": "重置链接发送成功，请检查您的电子邮件",
+      "failed": "发送重置链接失败"
+    },
+    "resetPassword": {
+      "title": "重置密码",
+      "submit": "重置密码",
+      "backToSignIn": "返回登录",
+      "success": "密码重置成功",
+      "failed": "密码重置失败",
+      "invalidToken": "无效的令牌"
+    },
+    "verifyEmail": {
+      "title": "验证电子邮件",
+      "loading": "验证中...",
+      "success": "验证成功",
+      "successDescription": "即将自动登录",
+      "failed": "验证失败",
+      "failedDescription": "请尝试完成邮箱验证后手动登录。"
+    }
+  },
+  "home": {
+    "history": "历史",
+    "ranking": "排名",
+    "startWorkout": "开始锻炼"
+  },
+  "my": {
+    "device": "设备",
+    "challenge": "挑战",
+    "battle": "对战",
+    "deviceModel": "设备型号",
+    "osVersion": "系统版本",
+    "appVersion": "应用版本"
+  },
+  "notFound": {
+    "title": "页面未找到",
+    "message": "抱歉，我们无法找到您要查找的页面。",
+    "back": "返回",
+    "backToHome": "返回首页"
+  }
+}

@@ -1,0 +1,29 @@
+pre-commit:
+  parallel: true
+  commands:
+    lint-js:
+      run: npm run lint:fix {staged_files}
+      glob: '*.{js,jsx,ts,tsx,mjs,cjs}'
+      exclude: 'drizzle/**'
+      stage_fixed: true
+    lint-style:
+      run: npx prettier --cache --ignore-unknown --write {staged_files}
+      glob: '*.{scss,less,html,css}'
+      stage_fixed: true
+    lint-package:
+      run: npx prettier --cache --write {staged_files}
+      glob: 'package.json'
+      stage_fixed: true
+    lint-json:
+      run: npx prettier --cache --write --parser json {staged_files}
+      glob: '{!(package)*.json}'
+      stage_fixed: true
+    lint-md:
+      run: npx prettier --cache --ignore-unknown --write {staged_files}
+      glob: '*.md'
+      stage_fixed: true
+
+commit-msg:
+  commands:
+    commitlint:
+      run: npx commitlint --edit {1}

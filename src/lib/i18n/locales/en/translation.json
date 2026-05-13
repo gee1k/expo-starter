@@ -1,0 +1,112 @@
+{
+  "tab": {
+    "home": "Home",
+    "my": "My"
+  },
+  "common": {
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "ok": "OK",
+    "yes": "Yes",
+    "no": "No",
+    "close": "Close",
+    "or": "or",
+    "continue": "Continue",
+    "submit": "Submit",
+    "retry": "Retry",
+    "skip": "Skip",
+    "notSet": "Not Set",
+    "loading": "Loading...",
+    "warning": "Warning",
+    "error": "Error",
+    "success": "Success"
+  },
+  "auth": {
+    "common": {
+      "name": "Name",
+      "namePlaceholder": "Enter your name",
+      "email": "Email",
+      "emailPlaceholder": "Enter your email",
+      "password": "Password",
+      "passwordPlaceholder": "Enter your password",
+      "newPassword": "New Password",
+      "newPasswordPlaceholder": "Enter new password"
+    },
+    "signOut": {
+      "title": "Sign Out",
+      "message": "Are you sure you want to sign out?"
+    },
+    "signIn": {
+      "title": "Sign In",
+      "submit": "Sign In",
+      "signInWithApple": "Sign in with Apple",
+      "signInWithGoogle": "Sign in with Google",
+      "noAccount": "Don't have an account?",
+      "signUp": "Sign Up",
+      "forgotPassword": "Forgot Password?",
+      "changeClub": "Change Club",
+      "loading": "Signing in...",
+      "success": "Sign In successful",
+      "successDescription": "Welcome back! {{name}}",
+      "failed": "Sign In failed",
+      "userCanceled": "The user canceled the authorization attempt",
+      "verifyEmail": "Verify your email",
+      "verifyEmailDescription": "Please check your email to verify your account.",
+      "resendEmail": "Resend Email",
+      "resendEmailSuccess": "Verification email sent successfully."
+    },
+    "signUp": {
+      "title": "Sign Up",
+      "submit": "Sign Up",
+      "loading": "Signing up...",
+      "alreadyHaveAccount": "Already have an account?",
+      "backToSignIn": "Back to Sign In",
+      "changeClub": "Change Club",
+      "success": "Sign Up successful",
+      "successDescription": "Please check your email to verify your account.",
+      "failed": "Sign Up failed"
+    },
+    "forgetPassword": {
+      "title": "Forgot Password",
+      "submit": "Send Reset Link",
+      "backToSignIn": "Back to Sign In",
+      "success": "Reset link sent successfully, please check your email",
+      "failed": "Failed to send reset link"
+    },
+    "resetPassword": {
+      "title": "Reset Password",
+      "submit": "Reset Password",
+      "backToSignIn": "Back to Sign In",
+      "success": "Password reset successful",
+      "failed": "Password reset failed",
+      "invalidToken": "Invalid token"
+    },
+    "verifyEmail": {
+      "title": "Verify Email",
+      "loading": "Verifying...",
+      "success": "Verification successful",
+      "successDescription": "Will log in automatically.",
+      "failed": "Verification failed",
+      "failedDescription": "Please try to manually log in after completing the email verification."
+    }
+  },
+  "home": {
+    "history": "History",
+    "ranking": "Ranking",
+    "startWorkout": "Start Workout"
+  },
+  "my": {
+    "device": "Device",
+    "challenge": "Challenge",
+    "battle": "Battle",
+    "deviceModel": "Device Model",
+    "osVersion": "OS Version",
+    "appVersion": "App Version"
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "message": "Sorry, we couldn't find the page you're looking for.",
+    "back": "Back",
+    "backToHome": "Back to Home"
+  }
+}
