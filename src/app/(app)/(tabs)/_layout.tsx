@@ -10,7 +10,7 @@ export default function TabLayout() {
         <NativeTabs.Trigger.Label>{t('tab.home')}</NativeTabs.Trigger.Label>
         <NativeTabs.Trigger.Icon sf="house.fill" md="home" />
       </NativeTabs.Trigger>
-      <NativeTabs.Trigger name="settings">
+      <NativeTabs.Trigger name="my">
         <NativeTabs.Trigger.Icon sf="person.fill" md="person" />
         <NativeTabs.Trigger.Label>{t('tab.my')}</NativeTabs.Trigger.Label>
       </NativeTabs.Trigger>
